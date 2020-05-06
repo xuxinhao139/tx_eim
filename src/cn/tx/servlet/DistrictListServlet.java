@@ -26,5 +26,6 @@ public class DistrictListServlet extends HttpServlet {
         response.getWriter().write(jsonArray.toJSONString());
 
         System.out.println("---------------------");
+        System.out.println("test");
     }
 }
