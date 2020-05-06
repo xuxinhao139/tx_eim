@@ -24,5 +24,7 @@ public class DistrictListServlet extends HttpServlet {
         // 设置响应类型
         response.setContentType("text/json;charset=utf-8");
         response.getWriter().write(jsonArray.toJSONString());
+
+        System.out.println("---------------------");
     }
 }
